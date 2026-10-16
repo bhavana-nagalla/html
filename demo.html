@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="icon" type="image/x-icon" href="C:\Users\hp\Documents\cats.jpg">
+    <style>
+        body{
+            background-image: url('../documents/cats.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: 100% 100%;
+        }
+        table,th,td{
+            /* border: 1px solid blueviolet; */
+            border-collapse: collapse;
+            /* border-radius:5px; */
+            /* border-style:dotted; */
+            
+        }
+        table{
+            /* border-spacing: 10px; */
+        }
+        th,td{
+            /* background-color: azure; */
+            padding:20px;
+            
+        }
+        th{
+            text-align: left;
+        }
+        tr{
+            border-bottom:1px solid black;
+        }
+        td:hover{
+            background-color: #D6EEEE;
+        }
+        li a{
+            /* display:block ; */
+            color:white;
+            /* text-align:center; */
+            padding:16px;
+            text-decoration:none;
+        }
+        div.mycontainer{
+            display: flex;
+            /* width:100%;
+            overflow: auto; */
+        }
+        div.mycontainer div{
+            /* background-color: black; */
+            /* color:white; */
+            padding:10px;
+            width:30%;
+            /* display: inline-block; */
+            /* float: left; */
+            /* margin: auto; */
+        }
+        .left{
+            background-color: #D6EEEE;
+            float:left;
+            width:20%;
+        }
+        .main{
+            background-color: pink;
+            float:left;
+            width:60%; 
+        }
+        .right{
+            background-color: aquamarine;
+            float: left;
+            width:20%;
+        }
+        @media screen and (max-width:800px) {
+            .left, .main, .right{
+                width:100%;
+            }
+        }
+        /* td:nth-child(even){
+            background-color: #D6EEEE;
+        }
+        tr:nth-child(odd){
+            background-color: #D6EEEE;
+        } */
+    </style>
+</head>
+<body>
+    <h1>Heading 1</h1>
+    <h2>Heading 2</h2>
+    <h3>Heading 3</h3>
+    <h4>Heading 4</h4>
+
+    <p><a href="#c4">Go to para 4</a></p>
+    <p><a href="#c17">Go to para 8</a></p>
+
+    <div class="left">
+        <p>Left Menu</p>
+    </div>
+    <div class="main">
+        <p>Main Menu</p>
+    </div>
+    <div class="right">
+        <p>Right Menu</p>
+    </div>
+
+    <img src="C:\Users\hp\Documents\Snapinsta.app_418358498_1113048873024961_8004961213891146023_n_1080.jpg" style="max-width:100%" />- 
+
+    
+    <h1 style="font-size:5vw">Responsive Text</h1>
+    <div class="mycontainer">
+        <div style="background-color: paleturquoise;">
+            <h3>London</h3>
+            <p>London is the capital city of England</p>
+            <p>London is the capital city of England</p>
+        </div>
+        <div style="background-color: pink;">
+            <h3>Oslo</h3>
+            <p>London is the capital city of England</p>
+            <p>London is the capital city of England</p>
+        </div>
+        <div style="background-color: skyblue;">
+            <h3>Rome</h3>
+            <p>London is the capital city of England</p>
+            <p>London is the capital city of England</p>
+        </div>
+    </div>
+
+    <!-- <ul style="list-style-type: circle;">
+        <li>dairy milk
+            <ul style="list-style-type:square">
+                <li>black tea</li>
+                <li>green tea</li>
+            </ul>
+            
+        </li>
+        <li>chocobar</li>
+        <li>vanila</li>
+        <li>butterscotch</li>
+        <li>strawberry</li>
+    </ul> -->
+
+    <ul style="list-style-type:none">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#home">News</a></li>
+        <li><a href="#home">Contact</a></li>
+        <li><a href="#home">About</a></li>
+    </ul>
+
+    <!-- <ol>
+        <li>dairy milk</li>
+        <li>chocobar</li>
+        <li>vanila</li>
+        <li>butterscotch</li>
+        <li>strawberry</li>
+    </ol> -->
+
+    <table >
+        <colgroup>
+        <col span="2" style="visibility: collapse;background-color:aquamarine"></colgroup>
+        <tr>
+            <th></th>
+            <th>Firstname</th>
+            <th>Lastname</th>
+            <th>Age</th>
+        </tr>
+        <tr>
+            <th>8:00</th>
+            <td>Bhavana</td>
+            <td>Peta</td>
+            <td>25</td>
+        </tr>
+        <tr>
+            <th>8:00</th>
+            <td>Sathish</td>
+            <td>Peta</td>
+            <td>28</td>
+        </tr>
+        <tr>
+            <th>8:00</th>
+            <td>Harika</td>
+            <td>Nagalla</td>
+            <td>25</td>
+        </tr>
+        <tr>
+            <th>8:00</th>
+            <td>Ganesh</td>
+            <td>Gangodi</td>
+            <td>24</td>
+        </tr>
+        
+    </table>
+
+    
+    <div style="display:block;">
+        <!--<img src="ccats.jpg" alt="cat image" height="300 px" width="300px" style="float:left; margin-right:20px;margin-bottom:20px"/>-->
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad recusandae, repellat aspernatur voluptas voluptates blanditiis cumque hic, dicta consectetur ipsa facere. Voluptates laborum dignissimos optio ex, quaerat quam nam quia?<br />
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad recusandae, repellat aspernatur voluptas voluptates blanditiis cumque hic, dicta consectetur ipsa facere. Voluptates laborum dignissimos optio ex, quaerat quam nam quia?<br />
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad recusandae, repellat aspernatur voluptas voluptates blanditiis cumque hic, dicta consectetur ipsa facere. Voluptates laborum dignissimos optio ex, quaerat quam nam quia?<br />
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad recusandae, repellat aspernatur voluptas voluptates blanditiis cumque hic, dicta consectetur ipsa facere. Voluptates laborum dignissimos optio ex, quaerat quam nam quia?
+    
+    </div>
+    <p>This is paragraph 1</p>
+    <p>This is paragraph 2</p>
+    <p>This is paragraph 3</p>
+    <p id="c4">This is paragraph 4</p>
+    <p>This is paragraph 5</p>
+    <p>This is paragraph 6</p>
+    <p>This is paragraph 7</p>
+    <p>This is paragraph 8</p>
+    <p>This is paragraph 9</p>
+    <p>This is paragraph 10</p>
+    <p id="c11">This is paragraph 11</p>
+    <p>This is paragraph 12</p>
+    <p>This is paragraph 13</p>
+    <p>This is paragraph 14</p>
+    <p>This is paragraph 15</p>
+    <p>This is paragraph 16</p>
+    <p id="c17">This is paragraph 17</p>
+</body>
+</html>

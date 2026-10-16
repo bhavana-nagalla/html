@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <form action="demo.html" autocomplete="on" target="_blank">
+         <label for="fname">First name:</label>
+        <input type="text" id="fname"/> <br /><br />
+        <label for="lname">Last name:</label>
+        <input type="text" id="lname"/> <br /><br />
+
+        <label for="age">Age:</label>
+        <input type="number" id="age" /> <br /><br />
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" /> <br /><br />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" /> <br /><br />
+
+        <label for="mbl">Phone:</label>
+        <input type="tel" id="mbl" /> <br /><br />
+
+        <label for="days">No.of days:</label>
+        <input type="range" id="days" name="days" />days <br /><br />
+
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/GIp0pKovoA4?si=GleYG9CpHR6-ff2A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <!-- <iframe width="420" height="300" src="https://youtu.be/A9BVsYyY2x8?si=sLcHGL7IzHnASTY8"></iframe> -->
+        <!-- <video width="320" height="240" autoplay>
+            <source src="https://youtu.be/A9BVsYyY2x8?si=sLcHGL7IzHnASTY8">
+        </video> -->
+
+        <label for="search">Search:</label>
+        <input type="search" id="search" /> <br /><br />
+
+        <label for="gender">Gender:</label> <br /><br/>
+        <input type="radio" id="male" name="gender" />
+        <label for="male">Male</label> <br /><br/>
+        <input type="radio" id="female" name="gender"/>
+        <label for="female">Female</label> <br /><br/>
+
+        <label for="courses">Courses:</label><br/><br/>
+        <input type="checkbox" id="frontend" name="course" />
+        <label for="frontend">Frontend</label> <br/><br/>
+        <input type="checkbox" id="backend" name="course" />
+        <label for="frontend">Backend</label> <br/><br/>
+        <input type="checkbox" id="fullstack" name="course" />
+        <label for="frontend">Fullstack</label> <br/><br/>
+        <input type="checkbox" id="Machine Learning" name="course" />
+        <label for="frontend">Machine Learning</label> <br/><br/>
+
+        <label for="cars">Choose a car:</label><br/><br/>
+        <select id="cars" multiple>
+            <option value="audi">Audi</option>
+            <option value="volvo">Volvo</option>
+            <option value="suzuki">Suzuki</option>
+            <option value="thar">Thar</option>
+        </select> <br/><br/>
+
+        <label for="Remarks">Remarks:</label><br/><br/>
+        <textarea style="width:200px;height:100px">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora obcaecati eos molestias nesciunt quae fugit eaque facere error! Corrupti non impedit nam doloremque ratione soluta numquam, vitae consequuntur nisi accusantium!</textarea> <br/><br/>
+        
+        <fieldset>
+            <legend>Personalia:</legend>
+            <label for="fname">First name:</label>
+            <input type="text" id="fname"><br/><br/>
+            <label for="lname">Last name:</label>
+            <input type="text" id="lname"><br/><br/>
+            <input type="submit" value="submit">
+        </fieldset><br/>
+
+        <input list="browsers" name="browser">
+        <datalist id="browsers">
+            <option value="Edge">
+            <option value="Firefox">
+            <option value="Chrome">
+            <option value="opera">
+            <option value="safari">
+        </datalist>
+        <br/><br/>
+        <button type="button" onclick="alert('Hello!')">Click Me!</button><br/><br/>
+        <input type="reset" value="reset">
+        <input type="submit" value="submit">
+        
+    </form>
+</body>
+</html>
